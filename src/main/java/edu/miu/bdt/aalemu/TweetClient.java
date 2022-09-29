@@ -27,10 +27,7 @@ public class TweetClient {
 		// Term that I want to search on Twitter
 		hbEndpoint.trackTerms(trackTerms);
 		// Twitter API and tokens
-		Authentication hosebirdAuth = new OAuth1("1R5FaVapm53Gnc0OgijvMmd28",
-				"xlggPOkv9C61OcEW9JznROomkKPqPwZxBJAg25DsKwnUT7506y",
-				"154526910-OBcHAEnnraYFLBj5YEZlw2KtoUULzROIBnkcorVG",
-				"dLnUIaAE2t7jAlzTYNY3dkaSGBIMMtBi3kCbWcUNj6SEZ");
+		Authentication hosebirdAuth = new OAuth1(${consumerKey}, ${consumerSecret}, ${token, ${tokenSecret});
 
 		/** Creating a client */
 		ClientBuilder builder = new ClientBuilder().name("Hosebird-Client")
